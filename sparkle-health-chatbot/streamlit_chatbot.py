@@ -329,8 +329,7 @@ User's question: {user_message}
     except Exception as e:
         return f"⚠️ Gemini API error: {e}"
 
-# 🌐 Flask backend URL
-FLASK_API_URL = "https://zmlbchatbot.onrender.com/upload-csv/"
+FLASK_API_URL = "https://zmlb.onrender.com/upload-csv/"
 
 # 🧠 Streamlit UI
 st.set_page_config(page_title="Sparkle AI Health Chatbot", layout="centered")
